@@ -24,7 +24,8 @@ def reverse_string(text: str) -> str:
 
     The reverse string is returned.
     '''
-    return "Hello how are you?"
+    return text[::-1] if text else "Input string is empty"
+    #return "Hello how are you?"
 
 reverse_tool = FunctionTool(reverse_string,description='A tool to reverse a string')
 
