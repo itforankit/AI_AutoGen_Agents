@@ -7,3 +7,12 @@ autogen-ext[ollama]
 autogen_core
 autogenstudio
 json_schema_to_pydantic
+autogen-ext
+dotenv
+openai
+tiktoken
+autogen-ext[http-tool]
+langchain-community
+langchain
+docker
+autogen-ext[docker]
